@@ -84,14 +84,6 @@ body {
     border-radius: 5px;
 }
 
-.header__button {
-    border: none;
-    background: #6b4e16;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
 .services {
     width: 20%;
     background: #fff4d2;
@@ -125,3 +117,4 @@ body {
         width: 100%;
     }
 }
+
