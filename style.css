@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+    color: #333;
+    background: #faf7f0;
+}
+
+.layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.menu {
+    background: #6b4e16;
+    color: white;
+    width: 20%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu__link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+    .menu__link:hover {
+        background: #a67c2e;
+    }
+
+.content {
+    width: 50%;
+    background: #f7f2e7;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.content__cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 45%;
+    padding: 10px;
+}
+
+.card__img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.header {
+    width: 30%;
+    background: #d2b48c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.header__input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.header__button {
+    border: none;
+    background: #6b4e16;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.services {
+    width: 20%;
+    background: #fff4d2;
+    padding: 15px;
+    box-sizing: border-box;
+    align-self: flex-end;
+}
+
+.aside {
+    width: 30%;
+    background: #f0e1b9;
+    padding: 15px;
+    box-sizing: border-box;
+    align-self: flex-end;
+}
+
+.footer {
+    align-self:center;
+    background: #6b4e16;
+    color: white;
+    text-align: center;
+    padding: 10px 15px;
+    width: 30%;
+    margin: 10px auto 20px;
+}
+
+@media (max-width: 900px) 
+{
+    .menu, .content, .header, .services, .aside 
+    {
+        width: 100%;
+    }
+}
